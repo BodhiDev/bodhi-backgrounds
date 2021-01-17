@@ -1,0 +1,161 @@
+/*** Bodhi Elegance Background
+ *
+ *     Copyright: Bodhi Linux <moksha@bodhilinux.com>
+ *     License:   CC-BY-SA-2.5
+ *
+ *   Taken and inspired by
+ *     La Belleza en tus Mano
+ *     The Elegance theme for Bodhi Linux
+ * 
+ *   Originally by Agustin J Verdegal T. <verdegal37@gmail.com>
+ *   Modernized by Robery Wiley <ylee@bodhilinux.com>
+ *
+ ***/
+
+collections {
+    images {
+      image: "shad.png"    COMP;
+      image: "bg1.png"     COMP;
+      image: "bg_shd.png"  COMP;
+      image: "bg_red.png"  COMP;
+      image: "bg_blue.png" COMP;
+    }
+
+    group {
+      name: "e/desktop/background";
+      parts {
+        part {
+          name: "bg";
+          description {
+            state: "default" 0.0;
+            color: 255 255 255 255;
+            image.normal: "bg1.png";
+            image.scale_hint: STATIC;
+          }
+        }
+
+      part {
+            name: "bg_shading";
+            description {
+              state: "default" 0.0;
+              color: 255 255 255 128;
+              image.normal: "shad.png";
+           }
+          }
+
+      part {
+            name: "logo.blue";
+            description {
+              state: "default" 0.0;
+              visible:  1;
+              color: 255 255 255 255;
+              rel1.relative: (742/1680) (417/1050);
+              rel2.relative: (937/1680) (635/1050);
+              image.normal: "bg_blue.png";
+           }
+        }
+
+      part {
+            name: "logo.ctrl2";
+            type:RECT;
+            description {
+              state: "default" 0.0;
+              visible:  1;
+              rel1.to: "logo.blue";
+              rel2.to: "logo.blue";
+              color: 0 0 0 0;
+            }
+        }
+
+      part {
+            name: "logo.red";
+            description {
+              state: "default" 0.0;
+              visible:  1;
+              color: 255 255 255 255;
+              rel1.relative: (742/1680) (417/1050);
+              rel2.relative: (937/1680) (635/1050);
+              image.normal: "bg_red.png";
+            }
+            description {
+              state: "hidden" 0.0;
+              visible:  0;
+              color: 255 255 255 0;
+              rel1.relative: (742/1680) (417/1050);
+              rel2.relative: (937/1680) (635/1050);
+              image.normal: "bg_red.png";
+            }
+        }
+      part {
+            name: "logo.ctrl1";
+            type:RECT;
+            description {
+              state: "default" 0.0;
+              visible:  1;
+              rel1.to: "logo.red";
+              rel2.to: "logo.red";
+              color: 0 0 0 0;
+            }
+            description {
+              state: "invis" 0.0;
+              visible:  0;
+              rel1.to: "logo.red";
+              rel2.to: "logo.red";
+              color: 0 0 0 0;
+          }
+        }
+      }
+
+    programs {
+      program {
+        name: "init";
+        signal: "load";
+        source: "";
+      }
+
+      program {
+        name:    "over_ctrl1";
+        signal:  "mouse,in";
+        source:  "logo.ctrl1";
+        action:  STATE_SET "invis" 0.0;
+        target:  "logo.ctrl1";
+        after:   "to_blue";
+      }
+
+      program {
+        name:    "to_blue";
+        signal:  "";
+        source:  "";
+        action:  STATE_SET "hidden" 0.0;
+        target:  "logo.red";
+        transition: DECELERATE 4;
+        //after:   "to_blue_f";
+      }
+
+      program {
+        name:    "over_ctrl2";
+        signal:  "mouse,in";
+        source:  "logo.ctrl2";
+        after:   "to_red";
+      }
+
+      program {
+        name:    "to_red";
+        signal:  "";
+        source:  "";
+        action:  STATE_SET "default" 0.0;
+        target:  "logo.red";
+        transition: DECELERATE 4;
+        after:   "to_red_f";
+      }
+
+      program {
+        name:    "to_red_f";
+        signal:  "";
+        source:  "";
+        action:  STATE_SET "default" 0.0;
+        target:  "logo.ctrl1";
+      }
+    }
+  }
+}

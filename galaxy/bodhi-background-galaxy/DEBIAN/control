@@ -1,0 +1,10 @@
+Package: bodhi-background-galaxy
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Galaxy
+ Cosmic desktop background for Moksha.
+ .
+ Bodhi Background by Vaidotas.

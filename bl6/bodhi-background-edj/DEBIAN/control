@@ -1,0 +1,10 @@
+Package: bodhi-background-edj
+Version: 0.04
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Jeff Hoogland <jeffhoogland@linux.com>
+Description: Bodhi Background
+ Contains Bodhi's custom desktop background.
+ .
+ Bodhi Background Light wave by Vaidotas.

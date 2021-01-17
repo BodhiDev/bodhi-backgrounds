@@ -1,0 +1,10 @@
+Package: bodhi-background-metal
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Metal
+ Bodhi branded dark metal background.
+ .
+ Bodhi Background by Vaidotas.

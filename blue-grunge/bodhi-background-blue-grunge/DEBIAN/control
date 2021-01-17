@@ -1,0 +1,10 @@
+Package: bodhi-background-blue-grunge
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Blue Grunge.
+ Contains a bluish Bodhi branded desktop background.
+ .
+ Bodhi Background by Vaidotas.

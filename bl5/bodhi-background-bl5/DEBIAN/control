@@ -1,0 +1,10 @@
+Package: bodhi-background-bl5
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Jeff Hoogland <jeffhoogland@linux.com>
+Description: Bodhi Background
+ Contains Bodhi Linux 5.x custom desktop background.
+ .
+ Bodhi Background Light Wave by Vaidotas.

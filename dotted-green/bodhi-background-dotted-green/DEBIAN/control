@@ -1,0 +1,10 @@
+Package: bodhi-background-dotted-green
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Dotted Green.
+ Green and Black Bodhi desktop background.
+ .
+ Bodhi Background by Vaidotas.

@@ -1,0 +1,10 @@
+Package: bodhi-background-moksha
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Moksha
+ Moksha branded Bodhi light blue and alabaster background.
+ .
+ Bodhi Background by Vaidotas.

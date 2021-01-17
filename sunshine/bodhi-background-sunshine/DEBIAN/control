@@ -1,0 +1,8 @@
+Package: bodhi-background-sunshine
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Sunshine Background
+ MokshaSunshine theme splash screen as background.

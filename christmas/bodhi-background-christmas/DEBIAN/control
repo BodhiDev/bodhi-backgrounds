@@ -1,0 +1,10 @@
+Package: bodhi-background-christmas
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Christmas
+ Contains a christmas themed Bodhi desktop background.
+ .
+ Bodhi Background by Vaidotas.

@@ -1,0 +1,10 @@
+Package: bodhi-background-abstract
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Abstract
+ Contains a light and dark, brown and golden Bodhi desktop background.
+ .
+ Bodhi Background Abstract by Vaidotas.

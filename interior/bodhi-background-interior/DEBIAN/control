@@ -1,0 +1,10 @@
+Package: bodhi-background-interior
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Interior Scene
+ Enlightenment branded Bodhi background by Txemi Jendrix.
+ .
+ Bodhi linux wallpaper made with blender.

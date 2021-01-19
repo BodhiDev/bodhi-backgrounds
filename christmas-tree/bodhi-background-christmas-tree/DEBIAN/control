@@ -1,0 +1,10 @@
+Package: bodhi-background-christmas-tree
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Christmas Tree
+ Bodhi Christmas background by Txemi Jendrix.
+ .
+ Bodhi linux wallpaper made with blender.

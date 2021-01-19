@@ -1,0 +1,10 @@
+Package: bodhi-background-chrome
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Chrome
+ Metal Enlightenment branded Bodhi 3-d background by Txemi Jendrix.
+ .
+ Bodhi linux wallpaper made with blender.

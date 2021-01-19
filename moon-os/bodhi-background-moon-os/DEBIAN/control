@@ -1,0 +1,8 @@
+Package: bodhi-background-moon-os
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Moon-Os
+ Classic e17 background taken from the old MoonOs Distro.

@@ -1,0 +1,10 @@
+Package: bodhi-background-melting
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Melting
+ Bodhi ice melting on wood floor background by Txemi Jendrix.
+ .
+ Bodhi linux wallpaper made with blender.

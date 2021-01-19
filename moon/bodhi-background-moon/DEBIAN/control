@@ -1,0 +1,8 @@
+Package: bodhi-background-moon
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Moon
+ Classic Bodhi background taken from the MoonLight theme.

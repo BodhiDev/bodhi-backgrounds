@@ -24,4 +24,5 @@ Full credit goes to the people who developed the original themes and or artwork.
 
 * Agustin J Verdegal
 * Alberto "Duma" Verdoja
+* José Miguel González-Pinto Díaz aka Txemi Jendrix
 * Štefan "the waiter" Uram

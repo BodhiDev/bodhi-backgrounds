@@ -1,0 +1,10 @@
+Package: bodhi-background-palm
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Palm
+ Bodhi 3-d background by Txemi Jendrix.
+ .
+ Bodhi linux wallpaper made with blender.

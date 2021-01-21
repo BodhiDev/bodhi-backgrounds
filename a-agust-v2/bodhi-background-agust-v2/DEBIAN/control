@@ -1,0 +1,10 @@
+Package: bodhi-background-agust-v2
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi A-Agust-V2
+ Bodhi background taken from the old A-Agust-V2 theme.
+ .
+ Originally by Agustin J Verdegal T.

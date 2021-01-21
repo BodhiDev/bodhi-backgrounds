@@ -1,0 +1,10 @@
+Package: bodhi-background-miguel3
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi A-Miguel3
+ Bodhi background taken from the old A-Miguel3 theme.
+ .
+ Originally by Agustin J Verdegal T.

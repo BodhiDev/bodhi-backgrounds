@@ -1,0 +1,10 @@
+Package: bodhi-background-a-wood
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi A-Wood
+ Bodhi background taken from the old A-Wood theme.
+ .
+ Originally by Agustin J Verdegal T.

@@ -1,0 +1,10 @@
+Package: bodhi-background-a-nostrum
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi A-Nostrum
+ Bodhi background taken from the old A-Nostrum theme.
+ .
+ Originally by Agustin J Verdegal T.

@@ -1,0 +1,100 @@
+
+#define BG_REL_TOP 0.5
+#define BG_REL_BOT (BG_REL_TOP+0.3)
+#define BORDER_HEIGHT 2
+#define BORDER_COLOR 143 89 2
+#define BG_COLOR 233 185 110
+#define DIALOG_BASE 233 204 158
+
+images {
+  image: "dialog_bg.png" COMP;
+  image: "cup-bg-vstrip.png" COMP;
+  image: "cup-bg-1024x600.png" COMP;
+}
+
+#define DIALOG_GRADIENT_PART(NAME)              \
+part {                                          \
+   name: NAME;                                  \
+   type: RECT;                                  \
+   mouse_events: 0;                             \
+   description {                                \
+      state: "default" 0.0;                     \
+      color: DIALOG_BASE 255;                   \
+   }                                            \
+}                                               \
+part { name: NAME"_grad";                       \
+type: IMAGE;                                    \
+   description { state: "default" 0.0;          \
+      image.normal: "dialog_bg.png";   \
+      color: 255 255 255 100;                   \
+   }                                            \
+}
+
+collections {
+group { name: "e/desktop/background";
+   parts {
+      DIALOG_GRADIENT_PART("background");
+      part { name: "strip-bg";
+         mouse_events: 0;
+         type: IMAGE;
+         description {
+            state: "default" 0.0;
+            rel1.relative: 0.0 BG_REL_TOP;
+            rel2.relative: 1.0 BG_REL_BOT;
+            image.normal: "cup-bg-vstrip.png" ;
+            fill {
+               smooth: 0;
+               size {
+                  relative: 0.0 1.0;
+                  offset: 8 0;
+               }
+            }
+         }
+      }
+      part { name: "strip-image";
+         mouse_events: 0;
+         type: IMAGE;
+         description {
+            state: "default" 0.0;
+            aspect: 1.0 (1024.0/600.0);
+            align: 1.0 0.0;
+            rel1.relative: 1.0 BG_REL_TOP;
+            rel2.relative: 1.0 BG_REL_BOT;
+            image.normal: "cup-bg-1024x600.png" ;
+         }
+      }
+      part { name: "border-top";
+         mouse_events: 0;
+         type: RECT;
+         description {
+            state: "default" 0.0;
+            rel1 {
+               relative: 0.0 BG_REL_TOP;
+               offset: 0 -1;
+            }
+            rel2 {
+               relative: 1.0 BG_REL_TOP;
+               offset: -1 BORDER_HEIGHT;
+            }
+            color: BORDER_COLOR 255;
+         }
+      }
+      part { name: "border-bottom";
+         mouse_events: 0;
+         type: RECT;
+         description {
+            state: "default" 0.0;
+            rel1 {
+               relative: 0.0 BG_REL_BOT;
+               offset: 0 -BORDER_HEIGHT;
+            }
+            rel2 {
+               relative: 1.0 BG_REL_BOT;
+               offset: -1 0;
+            }
+            color: BORDER_COLOR 255;
+         }
+      }
+   }
+}
+}

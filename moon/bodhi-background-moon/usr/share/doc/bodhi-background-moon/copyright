@@ -1,9 +1,11 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-background-moon
 Source: https://github.com/BodhiDev/bodhi-backgrounds
+Image: https://www.deviantart.com/boss019/art/Pacific-Calm-138356914
 
 Files: usr/share/enlightenment/*
-Copyright: 2009-2012 Agustin J Verdegal
+Copyright: 2009 Richard 'boss019' D. Efigenio
+           2009-2012 Agustin J Verdegal
            2021 Bodhi Linux <moksha@bodhilinux.com>
 License: CC-BY-SA-2.5
   This is a human-readable summary of (and not a substitute for) the license.

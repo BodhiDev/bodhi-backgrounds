@@ -23,6 +23,7 @@ Simply put to the best of our knowledge, these backgrounds are free to use, modi
 Full credit goes to the people who developed the original themes and or artwork. If you were one of those uncredited here let us know.
 
 * Glen 'g60' Larsen
+* [Richard 'boss019' D. Efigenio ](https://www.deviantart.com/boss019) [RIP](https://forums.wincustomize.com/426402/sad)
 * Agustin J Verdegal
 * Alberto "Duma" Verdoja
 * [José Miguel González-Pinto Díaz aka Txemi Jendrix](https://www.txemijendrix.com/index.php/en/galleries/wallpapers)

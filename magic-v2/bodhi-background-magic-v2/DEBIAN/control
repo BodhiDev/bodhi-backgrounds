@@ -1,0 +1,10 @@
+Package: bodhi-background-magic-v2
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Magic-V2
+ Classic Bodhi background.
+ .
+ Derived from e17 Efenniht theme.

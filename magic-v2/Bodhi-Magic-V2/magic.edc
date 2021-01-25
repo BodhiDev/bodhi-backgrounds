@@ -1,0 +1,42 @@
+images {
+  image: "wallpaper_bg.png" COMP;
+  image: "wallpaper_gradient.png" COMP;
+  image: "logo.png" COMP;
+}
+
+collections {
+  group { name: "e/desktop/background";
+    parts {
+      part { name: "_bg_main_image";
+        mouse_events: 0;
+        description { state: "default" 0.0;
+          image.normal: "wallpaper_bg.png";
+          fill.size.relative: 0 0;
+          fill.size.offset: 75 20;
+        }
+      }
+      part { name: "_bg_main_grad";
+        mouse_events: 0;
+        description { state: "default" 0.0;
+          image.normal: "wallpaper_gradient.png";
+        }
+      }
+      part { name: "logo";
+        mouse_events: 0;
+        description { state: "default" 0.0;
+          image.normal: "logo.png";
+          image.scale_hint: STATIC;
+          //max: 298 298;
+          //fill.smooth: 1;
+          //aspect: 1.0 1.0;
+          //aspect_preference: BOTH;
+          //align: 0.0 0.0;
+          rel1.relative: (810/1920) (390/1080);
+          rel2.relative: (1108/1920) (688/1080);
+          //rel1.offset: 580 280;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,11 @@
+Package: bodhi-background-ambient
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Ambient
+ Bodhi background taken from the old e17 Ambient theme.
+ Classic Ubuntu colors.
+ .
+ Originally by Agustin J Verdegal T.

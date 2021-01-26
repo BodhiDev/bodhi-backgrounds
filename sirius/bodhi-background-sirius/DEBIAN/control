@@ -1,0 +1,10 @@
+Package: bodhi-background-sirius
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Sirius
+ Bodhi background taken from the old Sirius theme.
+ .
+ Originally by Agustin J Verdegal T.

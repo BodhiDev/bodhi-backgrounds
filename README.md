@@ -27,4 +27,7 @@ Full credit goes to the people who developed the original themes and or artwork.
 * Agustin J Verdegal
 * Alberto "Duma" Verdoja
 * [José Miguel González-Pinto Díaz aka Txemi Jendrix](https://www.txemijendrix.com/index.php/en/galleries/wallpapers)
+* Jason Peel
+* JaRaEeZ
+* Isabelle (ZaZo0o) Stévant
 * Štefan "the waiter" Uram

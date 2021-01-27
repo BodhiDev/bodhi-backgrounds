@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-background-bl5
-Source: https://github.com/BodhiDev/bodhi5packages
+Source: https://github.com/BodhiDev/bodhi-backgrounds/
 
 Files: *
 Copyright: 2012 Vaidotas

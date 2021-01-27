@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-background-sunshine
-Source: https://github.com/BodhiDev/bodhi5packages
+Source: https://github.com/BodhiDev/bodhi-backgrounds/
 
 Files: usr/share/enlightenment/*
 Copyright: 2009-2011 Luca De Marini (thedarkmaster) <luca.darkmaster@gmail.com>

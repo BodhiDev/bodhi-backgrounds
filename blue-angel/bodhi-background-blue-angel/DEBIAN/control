@@ -1,0 +1,10 @@
+Package: bodhi-background-blue-angel
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Blue-Angel
+ Bodhi background taken from the Blue-Angel theme.
+ .
+ Wallpaper by Micah Denn

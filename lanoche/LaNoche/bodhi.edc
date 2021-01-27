@@ -1,0 +1,55 @@
+/*** Bodhi A-Bodhi2 Background
+ *
+ *     Copyright: Bodhi Linux <moksha@bodhilinux.com>
+ *     License:   CC-BY-SA-2.5
+ *
+ *   Taken and inspired by
+ *     A-Bodhi2 Theme for Bodhi Linux
+ * 
+ *   Originally by Agustin J Verdegal T. <verdegal37@gmail.com>
+ *   Modernized by Robery Wiley <ylee@bodhilinux.com>
+ *
+ ***/
+
+images { 
+  image: "bodhi-logo.png" COMP;
+  image: "bodhi-effect.png" COMP;
+}
+
+collections {
+  group { name: "e/desktop/background";
+    data.item: "style" "2"; 
+    parts {
+      part {
+        name: "base"; 
+        type: RECT; 
+        description { 
+          state: "default" 0.0;
+          min: 800 600;
+          color: 0 0 0 255;
+        }
+      }
+      part {
+        name: "cause"; 
+        description {
+          state: "default" 0.0;
+          rel1.relative: (759/1920) (339/1080);
+          rel2.relative: (1160/1920) (740/1080);
+          image.normal: "bodhi-logo.png"; 
+        } 
+      }
+      part { 
+        name: "baseeffect"; 
+        description {
+          state: "default" 0.0;
+          //min: 1680 1050; 
+          image.normal: "bodhi-effect.png";
+          image.scale_hint: STATIC;
+          rel1.relative: 0.00 0.00;
+          rel2.relative: 1.00 1.00;
+          fill.smooth: 0; 
+        } 
+      } 
+    } 
+  }
+}

@@ -1,0 +1,10 @@
+Package: bodhi-background-sgrey
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi AS-Grey
+ Bodhi background taken from the old AS-Grey theme.
+ .
+ Originally by Agustin J Verdegal T.

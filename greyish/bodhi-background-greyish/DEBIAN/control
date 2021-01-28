@@ -1,0 +1,10 @@
+Package: bodhi-background-greyish
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi A-Bodhi2
+ Bodhi background taken from the old AL-Greyish theme.
+ .
+ Wallpaper by  MonkeyMagico y Louis Jr

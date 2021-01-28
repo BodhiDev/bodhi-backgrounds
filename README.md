@@ -31,5 +31,5 @@ Full credit goes to the people who developed the original themes and or artwork.
 * JaRaEeZ
 * Micah Denn
 * MonkeyMagico y Louis Jr
-* Isabelle (ZaZo0o) Stévant
+* [Isabelle (ZaZo0o) Stévant](https://www.pling.com/u/zazo0o/)
 * Štefan "the waiter" Uram

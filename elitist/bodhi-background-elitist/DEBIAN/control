@@ -1,0 +1,10 @@
+Package: bodhi-background-elitist
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Elitist
+ Bodhi background taken from the old Elitist theme.
+ .
+ Wallpaper by LKJ.

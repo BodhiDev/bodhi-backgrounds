@@ -30,5 +30,6 @@ Full credit goes to the people who developed the original themes and or artwork.
 * Jason Peel
 * JaRaEeZ
 * Micah Denn
+* MonkeyMagico y Louis Jr
 * Isabelle (ZaZo0o) Stévant
 * Štefan "the waiter" Uram

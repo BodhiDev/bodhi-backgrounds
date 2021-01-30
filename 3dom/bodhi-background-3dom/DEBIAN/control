@@ -1,0 +1,10 @@
+Package: bodhi-background-3dom
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi 3dom
+ Bodhi background taken from the old 3dom theme.
+ .
+ wallpaper by LKJ

@@ -1,0 +1,10 @@
+Package: bodhi-background-red-night
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Red-Night
+ Bodhi background taken from the old Red-Night theme.
+ .
+ Wallpaper by NEDxfullMOon.

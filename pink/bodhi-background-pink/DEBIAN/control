@@ -1,0 +1,10 @@
+Package: bodhi-background-pink
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi A-Pink
+ Bodhi background taken from the old A-Bodhi2 theme.
+ .
+ Wallpaper by emphyhilator.

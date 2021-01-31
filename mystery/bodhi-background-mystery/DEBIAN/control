@@ -1,0 +1,10 @@
+Package: bodhi-background-mystery
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Mystery
+ Black background from the old Mystery Bodhi e17 theme.
+ .
+ Originally by Agustin J Verdegal T.

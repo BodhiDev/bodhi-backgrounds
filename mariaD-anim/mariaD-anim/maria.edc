@@ -1,0 +1,86 @@
+images { 
+    image: "mariaD_clear.png" LOSSY 90; 
+    image: "mariaD_bodhi.png" LOSSY 90; 
+    image: "shine.png" COMP; 
+}
+
+collections {
+group { name: "e/desktop/background";
+//~ data { item: "style" "4"; }
+max: 1680 1050;
+
+ parts {
+      part { name: "old"; type: IMAGE;
+         description { state: "default" 0.0;
+             image.normal: "mariaD_clear.png";
+         }
+      }
+      part { name: "new"; type: IMAGE;
+         clip_to: "bg_new_clip";
+         description { state: "default" 0.0;
+             image.normal: "mariaD_bodhi.png";
+         }
+      }
+      part { name: "bg_new_clip"; type: RECT;
+         description { state: "default" 0.0;
+            color: 255 255 255 0;
+         }
+         description { state: "done" 0.0;
+            inherit: "default" 0.0;
+            color: 255 255 255 255;
+         }
+      }
+      part { name: "shine"; type: IMAGE;
+         clip_to: "bg_new_clip";
+         description { state: "default" 0.0;
+             rel1.relative: 0.40 0.45;
+             rel2.relative: 0.43 0.55;
+             image.normal: "shine.png";
+             visible: 0;
+         }
+         description { state: "done" 0.0;
+             inherit: "default";
+             rel1.relative: 0.55 0.45;
+             rel2.relative: 0.58 0.55;
+             color: 255 255 255 255;
+             visible: 1;
+         }
+         description { state: "fade" 0.0;
+             inherit: "done";
+             color: 255 255 255 0;
+         }
+      }
+      
+   }
+   programs {
+      program {
+         name:   "wait";
+         signal: "show"; source: "";
+         action: STATE_SET "default" 0.0;
+         transition: LINEAR 1.5;
+         target: "old";
+         after:  "go";
+      }
+      program {
+         name:   "go";
+         signal: ""; source: "";
+         action: STATE_SET "done" 0.0;
+         transition: LINEAR 2.0;
+         target: "bg_new_clip";
+         target: "shine";
+         after:  "fade";
+      }
+      program {
+         name:   "fade";
+         signal: ""; source: "";
+         action: STATE_SET "fade" 0.0;
+         transition: LINEAR 1.0;
+         target: "shine";
+         after:  "end";
+      }
+      program {
+         name:   "end";
+         action: SIGNAL_EMIT "e,state,done" ""; 
+      }
+   }
+}

@@ -36,7 +36,7 @@ max: 1680 1050;
              rel1.relative: 0.40 0.45;
              rel2.relative: 0.43 0.55;
              image.normal: "shine.png";
-             visible: 0;
+             color: 255 255 255 0;
          }
          description { state: "done" 0.0;
              inherit: "default";
@@ -53,6 +53,14 @@ max: 1680 1050;
       
    }
    programs {
+       program {
+         name:    "bg_click";
+         signal:  "mouse,down,1";
+         source:  "new";
+         action:  STATE_SET "default" 0.0;
+         target:  "shine";
+         after:   "go";
+      }
       program {
          name:   "wait";
          signal: "show"; source: "";

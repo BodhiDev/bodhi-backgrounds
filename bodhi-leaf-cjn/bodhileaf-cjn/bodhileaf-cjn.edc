@@ -1,0 +1,52 @@
+images { image: "bodhi-leaf.png" LOSSY 90; }
+images { image: "blackbox.png" LOSSY 90; }
+collections {
+group { name: "e/desktop/background";
+  //~ data.item: "noanimation" "0";
+  data { item: "style" "0"; }
+  max: 2062 1124;
+  parts {
+    part { name: "base"; mouse_events: 0; type: IMAGE;
+      description { state: "default" 0.0;
+      image { 
+          normal: "blackbox.png"; 
+        }
+      }
+    }
+    part { name: "bg"; mouse_events: 0; type: IMAGE;
+      description { state: "default" 0.0;
+      color: 0 0 0 0;
+      image { 
+          normal: "bodhi-leaf.png"; 
+          scale_hint: STATIC; 
+        }
+      }
+      description { state: "show" 0.0;
+      inherit: "default";
+      color: 255 255 255 255;
+      }
+    }
+  }
+  programs {
+      program {
+         name:   "start";
+         signal: "show"; source: "";
+         action: STATE_SET "default" 0.0;
+         transition: LINEAR 1.5;
+         target: "bg";
+         after:  "show";
+      }
+      program {
+         name:   "show";
+         action: STATE_SET "show" 0.0;
+         transition: LINEAR 1.5;
+         target: "bg";
+         after: "end";
+      }
+      program {
+         name:   "end";
+         action: SIGNAL_EMIT "e,state,done" ""; 
+      }
+    }
+  }
+}

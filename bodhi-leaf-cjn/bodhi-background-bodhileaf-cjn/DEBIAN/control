@@ -1,0 +1,10 @@
+Package: bodhi-background-bodhileaf-cjn
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Leaf
+ Bodhi Leaf Background for BL7
+ .
+ FreeImages.com/cjn

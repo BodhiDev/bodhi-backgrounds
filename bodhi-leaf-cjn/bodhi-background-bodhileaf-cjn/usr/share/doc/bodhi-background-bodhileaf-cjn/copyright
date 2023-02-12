@@ -1,0 +1,159 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bodhi-background-bodhileaf-cjn 
+Source: https://github.com/BodhiDev/bodhi-backgrounds
+
+Files: bodhi-leaf.png in edj file
+Source: https://www.freeimages.com/photo/bodhi-leaf-1392651
+Copyright: cjn
+ This license agreement governs how you can use the free photos, illustrations,
+ graphics, and vectors (“content”) that you download via FreeImages.com. By
+ downloading content from FreeImages.com, you accept the terms and 
+ conditions of this license agreement. For the sake of clarity, the terms
+ and conditions of this license agreement only apply to free content 
+ downloaded via FreeImages.com and do not apply to any content downloaded
+ from any external websites (e.g., iStock).
+ .
+ What Type of License Am I Receiving?
+ When you download content via FreeImages.com, you are granted a free, 
+ non-exclusive, non-sublicensable, non-transferable license to use the content
+ subject to the terms and conditions of this license agreement.
+ .
+ Only you are licensed to use the content, except that you may allow printers,
+ distributors or other subcontractors (“Subcontractors”) to use the content
+ in any production or distribution process related to your final end use. 
+ Subcontractors must agree to be bound by the terms of this license agreement
+ and may not use the content for any other purpose.
+ .
+ How Can I Use Licensed Content?
+ You may use the content worldwide, in perpetuity, in any and all media in
+ any way that is not restricted (see “Restricted Uses,” below, as well as
+ any restrictions notified to you at the time of licensing). This includes
+ the right to copy, display, reproduce, crop, modify, publish or otherwise
+ make use of the content.
+ .
+ Types of Permitted Uses:
+ Unless otherwise stated at the time of download, examples of how you can use
+ the content include (but are not limited to): websites; blog posts; social
+ media; advertisements; flyers; marketing campaigns; corporate presentations;
+ school projects; newspapers; magazines; books; film and television productions;
+ web and mobile applications; product packaging; personal non-commercial use;
+ and, unless otherwise notified, commercial use. Please note that, where 
+ commercial use is permitted, you must first significantly or meaningfully 
+ modify, update, or otherwise incorporate additional creative elements into
+ the end use such that it becomes your own creative work.
+ .
+ Restricted Uses:
+ You must not:
+ Use content in a pornographic, obscene, defamatory or other unlawful manner,
+ or in any manner that could be considered offensive or flattering to the 
+ person depicted in the content.
+ Sell, sublicense, distribute or use the content in any way that allows third
+ parties to download, extract, use or redistribute the content file itself
+ (i.e., separate from your end use).
+ .
+ Use content as part of a trademark, design mark, tradename, business name,
+ service mark, or logo.
+ Falsely represent that you are the original creator of a work that is made up
+ largely of licensed content.
+ .
+ Use content in connection with any goods or services intended for resale or
+ distribution where the primary value lies in the content itself including,
+ without limitation, cards, stationery items, paper products, calendars, 
+ apparel items, posters (printed on paper, canvas, or any other media), CDs,
+ DVDs, mobile applications or other items for resale, license or other 
+ distribution for profit. This includes “on-demand” products (meaning products
+ in which content is selected by a third party for customization on such product
+ on a made-to-order basis), including, without limitation, postcards, mugs,
+ t-shirts, posters and other items (this includes the sale of products through
+ custom designed websites, as well as sites such as zazzle.com and 
+ cafepress.com).
+ .
+ Use content in electronic or digital templates intended for resale or other
+ distribution (for example, website templates, business card templates, 
+ electronic greeting card templates, brochure design templates).
+ Please note that certain content cannot be used in a commercial manner. 
+ Please refer to the license information available on the download page 
+ for each item of content for any additional restrictions applicable to 
+ that content.
+ .
+ Credit/Attribution
+ Certain content providers require attribution when you use their content,
+ such as a link or tagline in your blog or webpage next to the content. 
+ You agree to comply with the credit requirements that are notified to you
+ at the time of download. Unless otherwise specified at the time of download,
+ you should include the following credit adjacent to the content or in
+ visual production credits: "FreeImages.com/Artist's Name."
+ .
+ Intellectual Property Rights
+ All rights, including copyright and all other intellectual property rights
+ in and to the content are owned by the content suppliers. 
+ All rights not expressly granted to you by this license agreement are reserved
+ by FreeImages.com and the content suppliers.
+ .
+ Termination
+ The rights granted under this license agreement will immediately and 
+ automatically terminate without notice if you fail to comply with any term
+ or condition of this license agreement, in which case you must immediately:
+ cease using the content and delete or destroy any copies.
+ .
+ Upon notice or knowledge that any content downloaded via FreeImages.com
+ may be subject to a claim of infringement of a third party's right, 
+ FreeImages.com may require you to immediately, and at your own expense:
+ cease using the content, delete or destroy any copies, and ensure that 
+ your Subcontractors do the same.
+
+Files: *
+Copyright: 2023 Bodhi Linux <moksha@bodhilinux.com>
+License: CC-BY-SA-2.5
+  This is a human-readable summary of (and not a substitute for) the license.
+ .
+ You are free to:
+ Share — copy and redistribute the material in any medium or format
+ Adapt — remix, transform, and build upon the material for any purpose, 
+ even commercially.
+ .
+ This license is acceptable for Free Cultural Works.
+ The licensor cannot revoke these freedoms as long as you follow the 
+ license terms.
+ .
+ Under the following terms:
+ Attribution — You must give appropriate credit, provide a link to the license,
+ and indicate  if changes were made. You may do so in any reasonable manner, 
+ but not in any way that suggests the licensor endorses you or your use.
+ .
+ ShareAlike — If you remix, transform, or build upon the material, you must 
+ distribute your contributions under the same license as the original.
+ .
+ No additional restrictions — You may not apply legal terms or technological 
+ measures that legally restrict others from doing anything the license permits.
+ .
+ Notices:
+ You do not have to comply with the license for elements of the material in 
+ the public domain or where your use is permitted by an applicable exception
+ or limitation.
+ No warranties are given. The license may not give you all of the permissions
+ necessary for your intended use. For example, other rights such as publicity,
+ privacy, or moral rights may limit how you use the material.
+ .
+ For the full text see https://creativecommons.org/licenses/by-sa/2.5/legalcode
+ 
+
+Files: debian/*
+Copyright: 202 Robert Wiley <ylee@bodhilinux.com>
+License: GPL-3.0+
+
+License: GPL-3.0+
+ This program is free software: you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation, either version 3 of the License, or (at your option) any later
+ version.
+ .
+ This package is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License version
+ 3 can be found in "/usr/share/common-licenses/GPL-3".

@@ -1,4 +1,5 @@
 images { image: "bodhi-leaf.png" LOSSY 90; }
+images { image: "icon.png" LOSSY 90; }
 
 collections {
 group { name: "icon";
@@ -7,7 +8,7 @@ group { name: "icon";
     part { name: "bg"; mouse_events: 0; type: IMAGE;
       description { state: "default" 0.0;
       image { 
-          normal: "bodhi-leaf.png"; 
+          normal: "icon.png"; 
         }
       }
     }

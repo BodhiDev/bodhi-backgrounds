@@ -1,5 +1,5 @@
 Package: bodhi-background-bodhileaf-cjn
-Version: 0.02
+Version: 0.03
 Section: x11
 Priority: optional
 Architecture: all

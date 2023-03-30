@@ -1,4 +1,4 @@
-images { image: "bodhi-leaf.png" LOSSY 90; }
+images { image: "bodhi-leaf.png" COMP; }
 images { image: "icon.png" LOSSY 90; }
 
 collections {

@@ -1,0 +1,43 @@
+images { image: "Scaled.png" LOSSY 95;
+	 image: "LeftBit.png" COMP;
+	 image: "RightBit.png" COMP;
+	 image: "ELogo.png" COMP;
+}
+
+collections {
+group { name: "e/desktop/background";
+     
+   parts {
+	 part { name: "Scaled";
+	    description { state: "default" 0.0;
+	       image.normal: "Scaled.png"; // Make it fill all the space
+	    }
+	 }
+	 part { name: "LeftBit";
+	    description { state: "default" 0.0;
+	       align: 0.0 1.0;		// Align left and at the bottom.
+	       min: 334 314;		// Set the min size and...
+	       max: 334 314;		// max size so it wont scale.
+	       image.normal: "LeftBit.png";
+	    }
+	 }
+	 part { name: "RightBit";
+	    description { state: "default" 0.0;
+	       align: 1.0 0.0;		// Align Right and at the top.
+	       min: 260 284; 		// Set the min size and...
+	       max: 260 284;		// max size so it wont scale.
+	       image.normal: "RightBit.png";
+	    }
+	 }
+	 part { name: "ELogo";
+	    description { state: "default" 0.0;
+		rel1.relative: 0.4 0.3;
+		rel2.relative: 0.6 0.7;
+	       //~ min: 270 355;		// The absence of an align: will
+	       max: 270 350;		// make the image centred.
+	       image.normal: "ELogo.png";
+	    }
+	 }
+   }
+ }
+}

@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: bodhi-background-dotted-green
+Upstream-Name: bodhi-background-green-garden
 Source: https://github.com/BodhiDev/bodhi-backgrounds
 
 Files: *

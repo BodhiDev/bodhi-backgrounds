@@ -1,0 +1,10 @@
+Package: bodhi-background-bodhi-mountain
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Wallpaper
+ Default wallpaper in Escuelas Linux 8.2 and MokshaArcDark theme.
+ .
+ Wallpaper: Silhouette Of Mountains by Simon Berger.

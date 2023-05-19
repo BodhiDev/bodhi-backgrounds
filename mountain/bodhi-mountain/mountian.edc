@@ -1,0 +1,12 @@
+images { image: "mountain.jpg" LOSSY 90; }
+collections {
+group { name: "e/desktop/background";
+data { item: "style" "4"; }
+data.item: "noanimation" "1";
+max: 1920 1235;
+parts {
+part { name: "bg"; mouse_events: 0;
+description { state: "default" 0.0;
+aspect: 1.554655870 1.554655870; aspect_preference: NONE;
+image { normal: "mountain.jpg";  scale_hint: STATIC; }
+} } } } }

@@ -1,4 +1,6 @@
 collections { group { name: "e/desktop/background";
+data.item: "style" "4";
+data.item: "noanimation" "1";
    images {
       image: "bg_radgrad.png" COMP;
       image: "bg_pattern.png" COMP;
@@ -10,11 +12,6 @@ collections { group { name: "e/desktop/background";
          description { state: "default" 0.0;
             image.normal: "bg_radgrad.png";
             image.scale_hint: STATIC;
-            rel1.relative: 0.00 0.00;
-            rel2.relative: 1.00 1.00;
-            fill.smooth: 0;
-            aspect: (1024/653) (1024/653);
-            aspect_preference: NONE;
          }
       }
       part { name: "pat";
@@ -26,14 +23,15 @@ collections { group { name: "e/desktop/background";
          }
       }
       part {
-	      name: "cause"; 
-	      description {
-	      state: "default" 0.0;
-          rel1.relative: 0.2 0.32;
-          rel2.relative: 0.8 0.68;
-          image.normal: "logo.png"; 
-     	 } 
-	      }
-    }
+          name: "cause";
+          description {
+             state: "default" 0.0;
+             max: 861 297;
+             aspect: 2.8 2.0;
+             aspect_preference: BOTH;
+             image.normal: "logo.png"; 
+          }
+      }
    }
   }
+}

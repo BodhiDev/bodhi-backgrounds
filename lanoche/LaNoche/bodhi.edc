@@ -33,8 +33,10 @@ collections {
         name: "cause"; 
         description {
           state: "default" 0.0;
-          rel1.relative: (759/1920) (339/1080);
-          rel2.relative: (1160/1920) (740/1080);
+          aspect: 1.600000000 1.600000000; aspect_preference: NONE;
+          max: 400 400;
+          //~ rel1.relative: (759/1920) (339/1080);
+          //~ rel2.relative: (1160/1920) (740/1080);
           image.normal: "bodhi-logo.png"; 
         } 
       }
@@ -42,7 +44,8 @@ collections {
         name: "baseeffect"; 
         description {
           state: "default" 0.0;
-          //min: 1680 1050; 
+          max: 1920 1200; 
+          aspect: 1.600000000 1.600000000; aspect_preference: NONE;
           image.normal: "bodhi-effect.png";
           image.scale_hint: STATIC;
           rel1.relative: 0.00 0.00;

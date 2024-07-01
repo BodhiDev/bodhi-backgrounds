@@ -18,41 +18,43 @@ images {
 
 collections {
   group { name: "e/desktop/background";
-    data.item: "style" "2"; 
+    data.item: "style" "4";
     parts {
       part {
-        name: "base"; 
-        type: RECT; 
-        description { 
+        name: "base";
+        type: RECT;
+        description {
           state: "default" 0.0;
           min: 800 600;
           color: 0 0 0 255;
         }
       }
       part {
-        name: "cause"; 
+        name: "cause";
         description {
           state: "default" 0.0;
-          aspect: 1.600000000 1.600000000; aspect_preference: NONE;
+          aspect_preference: BOTH;
+          aspect: 1.0 2.8;
           max: 400 400;
           //~ rel1.relative: (759/1920) (339/1080);
           //~ rel2.relative: (1160/1920) (740/1080);
-          image.normal: "bodhi-logo.png"; 
-        } 
+          image.scale_hint: STATIC;
+          image.normal: "bodhi-logo.png";
+        }
       }
-      part { 
-        name: "baseeffect"; 
+      part {
+        name: "baseeffect";
         description {
           state: "default" 0.0;
-          max: 1920 1200; 
+          max: 1920 1200;
           aspect: 1.600000000 1.600000000; aspect_preference: NONE;
           image.normal: "bodhi-effect.png";
           image.scale_hint: STATIC;
           rel1.relative: 0.00 0.00;
           rel2.relative: 1.00 1.00;
-          fill.smooth: 0; 
-        } 
-      } 
-    } 
+          fill.smooth: 0;
+        }
+      }
+    }
   }
 }

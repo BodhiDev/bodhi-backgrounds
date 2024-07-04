@@ -9,6 +9,7 @@
  * 
  *   Originally by Agustin J Verdegal T. <verdegal37@gmail.com>
  *   Modernized by Robery Wiley <ylee@bodhilinux.com>
+ *   Script and aspect corrections by Stefan Uram <thewaiter@centrum.sk>
  *
  ***/
 
@@ -16,7 +17,6 @@ collections {
     images {
       image: "shad.png"    COMP;
       image: "bg1.png"     COMP;
-      image: "bg_shd.png"  COMP;
       image: "bg_red.png"  COMP;
       image: "bg_blue.png" COMP;
     }
@@ -33,29 +33,29 @@ collections {
             image.scale_hint: STATIC;
           }
         }
-
-      part {
+        part {
             name: "bg_shading";
             description {
               state: "default" 0.0;
               color: 255 255 255 128;
               image.normal: "shad.png";
-           }
-          }
-
-      part {
+            }
+        }
+        part {
             name: "logo.blue";
             description {
               state: "default" 0.0;
               visible:  1;
+              max: 226 220;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
               color: 255 255 255 255;
-              rel1.relative: (742/1680) (417/1050);
-              rel2.relative: (937/1680) (635/1050);
+              //~ rel1.relative: (742/1680) (417/1050);
+              //~ rel2.relative: (937/1680) (635/1050);
               image.normal: "bg_blue.png";
-           }
+            }
         }
-
-      part {
+        part {
             name: "logo.ctrl2";
             type:RECT;
             description {
@@ -66,27 +66,29 @@ collections {
               color: 0 0 0 0;
             }
         }
-
-      part {
+        part {
             name: "logo.red";
             description {
               state: "default" 0.0;
-              visible:  1;
+              visible: 1;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
               color: 255 255 255 255;
-              rel1.relative: (742/1680) (417/1050);
-              rel2.relative: (937/1680) (635/1050);
+              max: 226 220;
+              //~ rel1.relative: (742/1680) (417/1050);
+              //~ rel2.relative: (937/1680) (635/1050);
               image.normal: "bg_red.png";
             }
             description {
               state: "hidden" 0.0;
+              inherit: "default";
               visible:  0;
               color: 255 255 255 0;
-              rel1.relative: (742/1680) (417/1050);
-              rel2.relative: (937/1680) (635/1050);
-              image.normal: "bg_red.png";
+              //~ rel1.relative: (742/1680) (417/1050);
+              //~ rel2.relative: (937/1680) (635/1050);
             }
         }
-      part {
+        part {
             name: "logo.ctrl1";
             type:RECT;
             description {
@@ -98,10 +100,8 @@ collections {
             }
             description {
               state: "invis" 0.0;
+              inherit: "default";
               visible:  0;
-              rel1.to: "logo.red";
-              rel2.to: "logo.red";
-              color: 0 0 0 0;
           }
         }
       }

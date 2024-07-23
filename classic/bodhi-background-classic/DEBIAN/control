@@ -1,8 +1,10 @@
 Package: bodhi-background-classic
-Version: 0.01
+Version: 0.02
 Section: x11
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi classic
- Classic Bodhi background.
+ A return to Bodhi's early days, the Classic Bodhi background.
+ .
+ This background features the classic Bodhi icon and logo.

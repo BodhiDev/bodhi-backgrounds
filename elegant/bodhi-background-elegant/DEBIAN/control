@@ -1,5 +1,5 @@
 Package: bodhi-background-elegant
-Version: 0.01
+Version: 0.02
 Section: x11
 Priority: optional
 Architecture: all

@@ -24,12 +24,10 @@ collections { group {
       name: "logo-bg";
       description {
         state: "default" 0.0;
-        aspect: 1.0 1.0;
-        aspect_preference: BOTH;
         image.normal: "empty.png";
         align: 0.5 0.5;
-        rel1.relative: 0.40 0.35;
-        rel2.relative: 0.60 0.65;
+        rel1.relative: 0.43 0.35;
+        rel2.relative: 0.57 0.65;
       }
       description {
         state: "shine" 0.1;
@@ -41,12 +39,10 @@ collections { group {
       name: "logo";
       description {
         state: "default" 0.0;
-        aspect: 1.0 1.0;
-        aspect_preference: BOTH;
         image.normal: "slacke17.png";
         align: 0.5 0.5;
-        rel1.relative: 0.40 0.35;
-        rel2.relative: 0.60 0.65;
+        rel1.relative: 0.43 0.35;
+        rel2.relative: 0.57 0.65;
       }
     }
     part {
@@ -54,13 +50,11 @@ collections { group {
       repeat_events: 1;
       description {
         state: "default" 0.0;
-        aspect: 1.0 1.0;
-        aspect_preference: BOTH;
         color: 255 255 255 0;
         image.normal: "empty.png";
         align: 0.5 0.5;
-        rel1.relative: 0.40 0.35;
-        rel2.relative: 0.60 0.65;
+        rel1.relative: 0.43 0.35;
+        rel2.relative: 0.57 0.65;
       }
       description {
         state: "burn" 0.1;

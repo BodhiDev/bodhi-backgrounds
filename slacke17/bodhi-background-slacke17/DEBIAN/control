@@ -1,0 +1,10 @@
+Package: bodhi-background-slacke17
+Version: 0.01
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi A-SkyV2
+ Old Slackware background.
+ .
+ Originally by ???.

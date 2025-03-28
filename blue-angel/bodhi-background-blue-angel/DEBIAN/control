@@ -1,6 +1,6 @@
 Package: bodhi-background-blue-angel
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>

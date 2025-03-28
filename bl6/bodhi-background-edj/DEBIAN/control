@@ -1,9 +1,9 @@
 Package: bodhi-background-edj
-Version: 0.04
-Section: x11
+Version: 0.05
+Section: misc
 Priority: optional
 Architecture: all
-Maintainer: Jeff Hoogland <jeffhoogland@linux.com>
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi Background
  Contains Bodhi's custom desktop background.
  .

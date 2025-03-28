@@ -1,8 +1,10 @@
 Package: bodhi-background-bodhi-tree
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi Tree
  Bodhi Tree Night Wallpaper by missTell.
+ .
+ Bodhi Linux Wallpaper for Moksha.

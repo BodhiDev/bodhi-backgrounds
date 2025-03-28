@@ -1,10 +1,10 @@
 Package: bodhi-background-dark-metal
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
-Description: Bodhi Dark Metal.
+Description: Bodhi Dark Metal
  Dark Metal with red Bodhi logo desktop background.
  .
  Bodhi Background by Christopher Michael Rogers.

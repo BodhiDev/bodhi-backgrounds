@@ -1,10 +1,10 @@
 Package: bodhi-background-green-garden
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
-Description: Bodhi Green Garden.
+Description: Bodhi Green Garden
  Green garden wallpaper for Bodhi desktop.
  .
  Bodhi Background by Vaidotas.

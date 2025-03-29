@@ -1,11 +1,10 @@
 Package: bodhi-background-green
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi Green
  Green enlightenment Bodhi background by Txemi Jendrix.
  .
- Bodhi linux wallpaper made with gimp
- .
+ Bodhi Linux wallpaper made with gimp.

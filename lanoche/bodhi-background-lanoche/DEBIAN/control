@@ -1,6 +1,6 @@
 Package: bodhi-background-lanoche
 Version: 0.02
-Section: x11
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>

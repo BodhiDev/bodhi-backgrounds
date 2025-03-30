@@ -1,8 +1,10 @@
 Package: bodhi-background-lg2
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi LG2
  Enlightenment background taken from the LG2 e17 theme.
+ .
+ Original  theme was created by  PrinceAmd.

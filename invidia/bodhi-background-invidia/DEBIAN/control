@@ -1,8 +1,10 @@
 Package: bodhi-background-invidia
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi Sunshine Invidia
  Enlightenment background taken from the e17 Dark Revolution theme.
+ .
+ Original  theme was created by PrinceAmd.

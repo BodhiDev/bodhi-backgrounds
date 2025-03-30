@@ -1,9 +1,10 @@
 Package: bodhi-background-lynx
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi Lynx-Pardinus
  Bodhi background taken from the old Lynx theme.
-
+ .
+ Bodhi Background by Vaidotas.

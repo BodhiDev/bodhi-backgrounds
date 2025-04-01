@@ -1,9 +1,10 @@
 Package: bodhi-background-silver
-Version: 0.01
-Section: x11
+Version: 0.02
+Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi Silver
  Bodhi background by Micah “M1C4HTRON13” Denn.
-
+ .
+ Grey themed background with chrome Bodhi leaf.
